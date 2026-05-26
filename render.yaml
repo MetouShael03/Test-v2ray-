@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mon-serveur-xray
+    env: docker
+    plan: free
+    port: 10000
+    healthCheckPath: /
